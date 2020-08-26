@@ -1,0 +1,9 @@
+.main li {
+    color: blue;
+    display: inline-block;
+}
+
+.container {
+    width: 350px;
+    margin: 0 auto;
+}

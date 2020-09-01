@@ -98,9 +98,8 @@ select {
 
 .main {
     font-size: 14px;
-    color: #626262;
-    margin-bottom: 77px;
-    margin-top: 70px;
+    margin-bottom: 98px;
+    margin-top: 72px;
 }
 
 .page-nav {
@@ -109,9 +108,7 @@ select {
 
 .site-navigation {
     vertical-align: middle;
-    margin-top: 77px;
     padding: 0px;
-    font-size: 13px;
     list-style: none;
     text-align: center;
     font-family: MyriadPro;
@@ -123,13 +120,19 @@ select {
     display: inline-block;
 }
 
+.site-navigation a {
+    color: #707070;
+}
+
 .site-navigation li:not(:last-child) {
     margin-right: 60px;
 }
 
-.site-navigation a:hover .site-navigation a:focus {
-    color: black;
+.site-navigation li a:hover {
+    color: #9addfb;
 }
+
+.site-navigation li a:focus {}
 
 .features-list {
     font-size: 0;
@@ -152,6 +155,7 @@ select {
     margin-bottom: 36px;
     font-size: 14px;
     color: #b4ad9e;
+    font-variant: small-caps;
 }
 
 .features-list-item .title {

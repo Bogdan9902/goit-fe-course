@@ -99,15 +99,17 @@ select {
 .main {
     font-size: 14px;
     color: #626262;
+    margin-bottom: 77px;
+    margin-top: 70px;
 }
 
 .page-nav {
-    margin: 0;
+    margin: 0 auto;
 }
 
 .site-navigation {
     vertical-align: middle;
-    margin: 77px 0 104px 0;
+    margin-top: 77px;
     padding: 0px;
     font-size: 13px;
     list-style: none;
@@ -132,18 +134,17 @@ select {
 .features-list {
     font-size: 0;
     list-style: none;
-    margin: 0;
     padding: 0;
 }
 
-.features-list-item {
+.features-list li {
     width: 420px;
     display: inline-block;
     margin-right: 60px;
     margin-bottom: 130px;
 }
 
-.features-list-item:nth-child(2n) {
+.features-list li:nth-child(2n) {
     margin-right: 0;
 }
 
@@ -159,14 +160,14 @@ select {
     color: #626262;
 }
 
-.description {
+.features-list-item .description {
     margin-bottom: 0;
     font-size: 14px;
     color: #626262;
 }
 
 .features-list-item:nth-last-child(-n +2) {
-    margin-bottom: 0;
+    margin-bottom: 52px;
 }
 
 .container {
@@ -183,4 +184,10 @@ select {
 .photo {
     width: 100%;
     height: 100%;
+}
+
+.button {
+    padding: 0;
+    margin-bottom: 70px;
+    text-align: center;
 }

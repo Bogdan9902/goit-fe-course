@@ -142,17 +142,17 @@ select {
     padding: 0;
 }
 
-.features-list li {
+.features-list form {
     width: 420px;
     margin-right: 60px;
     margin-bottom: 130px;
 }
 
-.features-list li {
+.features-list form {
     display: inline-block;
 }
 
-.features-list li:nth-child(2n) {
+.features-list form:nth-child(2n) {
     margin-right: 0;
 }
 

@@ -210,4 +210,5 @@ button {
     width: 164px;
     color: #7d7d7d;
     background: white;
+    cursor: crosshair;
 }

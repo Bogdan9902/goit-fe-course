@@ -123,13 +123,13 @@
     .features-list {
         margin: 0;
         padding: 0;
+        display: inline-block;
     }
     
     .features-list-item {
         width: 420px;
         padding: 0;
         margin: 0 60px 130px 0;
-        display: inline-block;
     }
     
     .features-list-item:nth-child(2n) {
@@ -169,7 +169,7 @@
         margin-bottom: 52px;
     }
     
-    .container {
+    .wrapper {
         width: 900px;
         margin: 0 auto;
         font-size: 0px;
